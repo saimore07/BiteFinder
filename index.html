@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteFinder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>BiteFinder</h1>
+
+            <form id="searchForm">
+                <input type="text" placeholder="Search for recipes:" class="searchBox">
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes...</h2>
+            </div>
+
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn" aria-label="Close recipe popup">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
